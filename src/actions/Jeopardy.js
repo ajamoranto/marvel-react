@@ -1,7 +1,7 @@
 import request from 'superagent';
 import md5 from 'md5'
 
-const baseUrl = 'http://jservice.io/api/random';
+const baseUrl = 'https://jservice.io/api/random';
 
 export function getQuestion(){
   return dispatch => {
