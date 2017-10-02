@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+- '7'
+deploy:
+  provider: heroku
+  api_key:
+    secure: 6c417d32-0c9d-4059-a4ee-0c9108e505cb
+  app: murmuring-bayou-68966
